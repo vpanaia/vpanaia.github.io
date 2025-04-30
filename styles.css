@@ -1,0 +1,24 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #fdfdfd;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+  }
+  h1, h2 {
+    color: #333;
+  }
+  .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .badges img {
+    height: 32px;
+  }
